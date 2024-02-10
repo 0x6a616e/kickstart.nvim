@@ -59,4 +59,6 @@ vim.cmd.colorscheme "catppuccin"
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
+vim.filetype.add({ extension = { templ = "templ" } })
+
 -- vim: ts=2 sts=2 sw=2 et
