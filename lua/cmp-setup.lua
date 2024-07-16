@@ -50,4 +50,11 @@ cmp.setup {
   },
 }
 
+cmp.setup.filetype({ "sql" }, {
+  sources = {
+    { name = "vim-dadbod-completion" },
+    { name = "buffer" },
+  },
+})
+
 -- vim: ts=2 sts=2 sw=2 et
