@@ -5,7 +5,6 @@
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- Custom keymaps
-vim.keymap.set("n", "<leader>p", vim.cmd.Ex, { desc = "See current directory" })
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("n", "J", "mzJ`z")
